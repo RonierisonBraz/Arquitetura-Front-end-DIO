@@ -1,5 +1,6 @@
 ﻿using Curso.WebApi.Models.Cursos;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace Curso.WebApi.Controllers
 {
@@ -14,6 +15,28 @@ namespace Curso.WebApi.Controllers
         public IActionResult Cadastrar(CadastrarCursoViewModelInput cadastrarCursoViewModelInput)
         {
             return View();
+        }
+
+        public IActionResult Listar()
+        {
+
+            var cursos = new List<ListarCursoViewOutput>
+            {
+                new ListarCursoViewOutput()
+                {
+                    Nome = "Curso A",
+                    Descricao = "Descricao Curso A",
+                    Login = "RonierisonBraz"
+                },
+                new ListarCursoViewOutput()
+                {
+                    Nome = "Curso B",
+                    Descricao = "Descricao Curso B",
+                    Login = "RonierisonBraz"
+                }
+            };
+
+            return View(cursos);
         }
 
     }

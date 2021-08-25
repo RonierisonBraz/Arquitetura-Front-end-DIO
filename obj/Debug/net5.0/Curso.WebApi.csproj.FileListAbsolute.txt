@@ -116,3 +116,5 @@ C:\Users\r.braz.da.silva\Documents\Cursos\Curso-front-.NET\Curso.WebApi\bin\Debu
 C:\Users\r.braz.da.silva\Documents\Cursos\Curso-front-.NET\Curso.WebApi\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\r.braz.da.silva\Documents\Cursos\Curso-front-.NET\Curso.WebApi\obj\Debug\net5.0\Razor\Views\Usuario\Cadastrar.cshtml.g.cs
 C:\Users\r.braz.da.silva\Documents\Cursos\Curso-front-.NET\Curso.WebApi\obj\Debug\net5.0\Razor\Views\Usuario\Logar.cshtml.g.cs
+C:\Users\r.braz.da.silva\Documents\Cursos\Curso-front-.NET\Curso.WebApi\obj\Debug\net5.0\Razor\Views\Curso\Cadastrar.cshtml.g.cs
+C:\Users\r.braz.da.silva\Documents\Cursos\Curso-front-.NET\Curso.WebApi\obj\Debug\net5.0\Razor\Views\Curso\Listar.cshtml.g.cs
